@@ -1,0 +1,70 @@
+#container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid black;
+}
+
+.maroon{
+    background-color: maroon; 
+}
+.lightgreen{
+    background-color: lightgreen; 
+}
+
+.magenta{
+    background-color: magenta; 
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+body{
+    background-color:rgb(226, 178, 74);
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+/* div{
+    text-align: center;
+} */
+
+
+legend{
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 10px;
+    font-size: 28px;
+    background-color: rgb(226, 178, 74);
+    color: rgb(255, 255, 255);
+    border-radius: 5%;
+}
+fieldset{
+    border: 1px solid black;
+    font-size: 18px;
+    background-color: rgb(226, 178, 74);
+    color: rgb(255, 255, 255);
+}
+
+form{
+    padding: 20%;
+    padding-top: 50px;
+}
+
+#bg {
+    background-image: url('Yellow_MW_Mac.png');
+    background-size: cover; /* ปรับขนาดรูปให้เต็มพื้นหลัง */
+    background-repeat: no-repeat; /* ไม่ต้องทำซ้ำรูปภาพ */
+  }
